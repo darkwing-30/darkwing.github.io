@@ -50,8 +50,8 @@
 
         <section class="hobbies">
             <h2>Hobbies and Special Interests</h2>
-            <ul>
-                <li>Playing cricket (Link->https://en.wikipedia.org/wiki/Cricket)</li>
+             <ul style="list-style-type:square">
+                <li><a href="https://en.wikipedia.org/wiki/Cricket">Cricket</a></li>
                 <li>Going on long drives</li>
                 <li>Stargazing</li>
                 <li>Reading books</li>
@@ -62,20 +62,8 @@
             <h2>Fun Fact</h2>
             <p>I can recognize most constellations in the night sky without a guide, thanks to my passion for stargazing!</p>
         </section>
-                <footer>
-            <p>Last Date Updated On: <span id="last-updated"></span></p>
-        </footer>
-    </div>
-
-    <script>
-        // Automatically set the current date as the last updated date
-        const lastUpdatedElement = document.getElementById("last-updated");
-        const currentDate = new Date().toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
-        lastUpdatedElement.textContent = currentDate;
-    </script>
+               <footer>
+    <p>Last Date Updated On: <span>January 31, 2025</span></p>
+</footer>
 </body>
 </html>
